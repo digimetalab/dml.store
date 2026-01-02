@@ -1,174 +1,151 @@
-# dml.store 🚀  
+# DML Store 🚀
 AI-Powered Online Store Platform
 
-dml.store is an **AI-powered online store web application** that helps users build, manage, and grow digital businesses using intelligent automation and AI agents.
+**DML Store** is an advanced **AI-powered online store web application** designed to help users build, manage, and grow digital businesses using intelligent automation and AI agents.
 
-> Built by **Digimetalab** – AI Automation Agency
+> Built by **[Digimetalab](https://digimetalab.my.id)** – AI Automation Agency
 
 ---
 
 ## ✨ Key Features
 
 ### 🧠 AI-Powered Commerce
-- AI Product Description Generator
-- AI Pricing & Recommendation Engine
-- AI Customer Support Agent
-- AI Sales & Conversion Insights
+- **AI Product Description Generator**: Create compelling copy in seconds.
+- **AI Recommendations**: Smart product suggestions for customers.
+- **AI Customer Support**: 24/7 intelligent chat agents.
+- **Sales Insights**: Data-driven predictions and analysis.
 
 ### 🛍️ Online Store Core
 - Physical & Digital Product Management
-- Orders & Checkout System
-- Customer Management (CRM-ready)
-- Coupons & Promotions
+- Complete Orders & Checkout System
+- CRM-Ready Customer Management
+- Coupons & Promotions Engine
 
 ### ⚙️ Automation & AI Agents
-- AI Marketing Automation (Email, WhatsApp, Social Media)
-- AI Content Generator (Landing pages, product copy, ads)
-- AI Sales Assistant (Chat-based)
-- Workflow automation (n8n-ready)
+- **Marketing Automation**: Email, WhatsApp, and Social Media integration.
+- **Content Generation**: Landing pages, ads, and social posts.
+- **Workflow Automation**: Ready for n8n integration.
 
 ### 📊 Analytics & Insights
-- Sales & Revenue Dashboard
-- AI-generated Business Insights
+- Real-time Sales & Revenue Dashboard
+- AI-Generated Business Insights
 - Customer Behavior Analysis
-- Funnel & Conversion Tracking
+- Funnel Conversion Tracking
 
 ### 🔐 Scalable & Secure
-- Multi-tenant architecture
-- Role-based access control
-- API-first design
-- Cloud & self-host deployment support
+- Multi-tenant capable architecture
+- Role-based Access Control (RBAC)
+- API-First Design
 
 ---
 
-## 🧩 Tech Stack (Planned / Recommended)
+## 🧩 Tech Stack
 
-| Layer | Technology |
-|-----|-----------|
-| Frontend | Next.js / React |
-| Backend | Node.js / Bun |
-| Database | PostgreSQL |
-| AI Engine | OpenAI / Groq / Gemini |
-| Vector Database | Qdrant / Weaviate |
-| Automation | n8n |
-| Authentication | JWT / OAuth |
-| Infrastructure | Docker / Cloud |
+This project is built with the latest modern web technologies:
+
+| Category | Technology |
+|----------|------------|
+| **Framework** | [Next.js 16](https://nextjs.org/) (App Router) |
+| **UI Library** | [React 19](https://react.dev/) |
+| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) |
+| **Animation** | Framer Motion |
+| **Database ORM** | [Drizzle ORM](https://orm.drizzle.team/) |
+| **Database** | PostgreSQL |
+| **AI Integration** | [Vercel AI SDK](https://sdk.vercel.ai/) |
+| **LLM Provider** | OpenRouter (Support for OpenAI, Anthropic, Gemini, etc.) |
+| **Validation** | Zod |
 
 ---
 
 ## 🏗️ Architecture Overview
 
-User
-↓
-Web Application (Frontend)
-↓
-API Gateway
-↓
-Backend Services
-↓
-AI Engine & Automation (n8n)
-↓
-Database & Vector Store
-
-yaml
-Copy code
+```mermaid
+graph TD
+    User -->|Browser| Frontend[Next.js Web App]
+    Frontend -->|API Routes| API[Next.js API Layer]
+    API -->|AI SDK| LLM[LLM Providers]
+    API -->|Drizzle ORM| DB[(PostgreSQL)]
+    API -->|Async Tasks| Automation[n8n / Background Jobs]
+```
 
 ---
 
-## 🧠 AI Capabilities
+## 🚀 Getting Started
 
-- Prompt-based AI agents
-- Context-aware product & customer analysis
-- RAG (Retrieval Augmented Generation)
-- AI personas for sales, marketing, and support
-- Long-term memory using vector databases
+Follow these steps to set up the project locally.
 
----
+### Prerequisites
+- Node.js 20+ installed
+- PostgreSQL database (local or cloud)
 
-## 🎯 Target Users
+### Installation
 
-- Indie developers & solopreneurs
-- Digital creators & freelancers
-- Online sellers & agencies
-- Businesses adopting AI-driven commerce
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/digimetalab/dml.store.git
+   cd dml.store
+   ```
 
----
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-## 💡 Use Cases
+3. **Configure Environment**
+   Create a `.env` file in the root directory and add your credentials:
+   ```env
+   DATABASE_URL=postgresql://user:password@localhost:5432/dml_store
+   OPENROUTER_API_KEY=your_api_key
+   ```
 
-- Launch an AI-powered online store in minutes
-- Automate product content and marketing campaigns
-- Deploy AI sales and customer support agents
-- Centralize commerce and automation workflows
-- Build custom AI commerce solutions for enterprises
+4. **Initialize Database**
+   ```bash
+   npm run db:push
+   npm run db:seed
+   ```
+
+5. **Run Development Server**
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) to view the application.
 
 ---
 
 ## 🧪 Project Status
 
-🚧 **Active Development (MVP Stage)**  
+🚧 **Active Development (MVP Stage)**
 
-Planned roadmap:
-- AI Store Builder
-- AI Agent Marketplace
-- Plugin & Extension System
-- Enterprise-grade custom deployment
+**Planned Roadmap:**
+- [ ] AI Store Builder
+- [ ] AI Agent Marketplace
+- [ ] Plugin & Extension System
+- [ ] Enterprise-grade custom deployment
 
 ---
 
-## 📦 Installation (Development)
+## 🤝 Contributing
 
-```bash
-git clone https://github.com/digimetalab/dml.store.git
-cd dml.store
-npm install
-npm run dev
-Docker and production deployment guides will be provided.
+Contributions are welcome! Please feel free to verify the roadmap or submit a Pull Request.
 
-🔌 Integrations (Planned)
-Payment Gateways
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-WhatsApp API
+---
 
-Email Marketing Platforms
+## 📄 License
 
-Google Analytics
+Distributed under the MIT License. See `LICENSE` for more information.
 
-CRM & Accounting Systems
+---
 
-n8n Workflow Templates
+## 🌐 About
 
-🧠 Philosophy
-“Commerce should be intelligent, automated, and human-centered.”
-
-dml.store is built on these principles:
-
-AI-first, not AI-added
-
-Automation over manual operations
-
-Modular and extensible architecture
-
-Designed for global scalability
-
-🤝 Contributing
-Contributions are welcome:
-
-Feature requests
-
-Bug reports
-
-Pull requests
-
-AI agent and prompt improvements
-
-📄 License
-MIT License
-
-🌐 About
-Built with ❤️ by Digimetalab
-AI Automation Agency
-
-markdown
-Copy code
-
+**DML Store** is proudly built by **Digimetalab**.
+*Empowering businesses with AI.*
