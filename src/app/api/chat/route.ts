@@ -14,12 +14,12 @@ const openrouter = createOpenRouter({
 const WHATSAPP_NUMBER = process.env.WHATSAPP_NUMBER || "628123456789";
 
 // System prompt for the store assistant
-const SYSTEM_PROMPT = `You are a friendly and knowledgeable PC parts store assistant for IUL Store, a trusted computer hardware retailer in Indonesia.
+const SYSTEM_PROMPT = `You are a friendly and knowledgeable store assistant for DML Store, an AI-powered commerce platform by Digimetalab.
 
 Your role:
-- Help customers find the right PC components for their needs
+- Help customers find the right products for their needs
 - Recommend products based on their budget and requirements
-- Provide technical advice about compatibility and performance
+- Provide helpful advice about product features and specifications
 - Guide customers through the ordering process
 
 Guidelines:
@@ -36,12 +36,12 @@ Guidelines:
 
 Available product categories: GPU, CPU, RAM, STORAGE, MOTHERBOARD, PSU, CASE, MONITOR, PERIPHERAL
 
-Remember: You represent IUL Store - we pride ourselves on quality products and excellent customer service!`;
+Remember: You represent DML Store by Digimetalab - we pride ourselves on AI-powered solutions and excellent customer service!`;
 
 // Helper function to generate WhatsApp order link
 function generateWhatsAppLink(productName: string, price: number): string {
   const message = encodeURIComponent(
-    `Halo IUL Store! 👋\n\nSaya tertarik untuk memesan:\n📦 ${productName}\n💰 Harga: Rp ${price.toLocaleString(
+    `Halo DML Store! 👋\n\nSaya tertarik untuk memesan:\n📦 ${productName}\n💰 Harga: Rp ${price.toLocaleString(
       "id-ID"
     )}\n\nMohon info ketersediaan dan cara pemesanannya. Terima kasih!`
   );

@@ -15,12 +15,12 @@ export default function Footer() {
                 <Power className="w-4 h-4 text-neon-blue" />
               </div>
               <span className="text-xl font-bold text-white">
-                IUL<span className="text-neon-blue">Store</span>
+                DML<span className="text-neon-blue">Store</span>
               </span>
             </Link>
             <p className="text-sm leading-relaxed">
-              Premium hardware for premium gamers. We build dreams, one rig at a
-              time.
+              AI-powered commerce platform. Build and grow your digital business
+              with intelligent automation.
             </p>
             <div className="flex gap-4">
               <Link href="#" className="hover:text-neon-blue transition-colors">
@@ -142,7 +142,7 @@ export default function Footer() {
         </div>
 
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
-          <p>&copy; 2024 IUL Store. All rights reserved.</p>
+          <p>&copy; 2024 DML Store by Digimetalab. All rights reserved.</p>
           <div className="flex gap-6">
             <Link href="#" className="hover:text-white transition-colors">
               Privacy Policy

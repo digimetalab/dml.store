@@ -16,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IUL Store | Premium PC Hardware & Custom Builds",
+  title: "DML Store | AI-Powered Online Store Platform",
   description:
-    "The ultimate destination for high-end gaming PCs, components, and peripherals.",
+    "Build, manage, and grow your digital business with intelligent automation and AI agents. Powered by Digimetalab.",
 };
 
 export default function RootLayout({

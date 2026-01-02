@@ -39,9 +39,8 @@ export default function Hero() {
             </span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-2xl leading-relaxed">
-            Experience performance like never before with IUL Store's premium
-            components and custom builds. Designed for those who refuse to
-            compromise.
+            Experience the future of commerce with DML Store's AI-powered
+            platform. Designed for those who demand intelligent automation.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">

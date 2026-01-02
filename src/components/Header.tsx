@@ -33,7 +33,7 @@ export default function Header() {
             <Power className="w-5 h-5 text-neon-blue group-hover:drop-shadow-[0_0_8px_rgba(0,243,255,0.8)] transition-all" />
           </div>
           <span className="text-xl font-bold tracking-wider text-white">
-            IUL<span className="text-neon-blue">Store</span>
+            DML<span className="text-neon-blue">Store</span>
           </span>
         </Link>
 

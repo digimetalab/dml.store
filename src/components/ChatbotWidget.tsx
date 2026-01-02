@@ -182,7 +182,7 @@ export default function ChatbotWidget() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-white">
-                    IUL Store Assistant
+                    DML Store Assistant
                   </h3>
                   <p className="text-xs text-gray-400">Always here to help</p>
                 </div>
@@ -214,11 +214,10 @@ export default function ChatbotWidget() {
                   >
                     {/* Avatar */}
                     <div
-                      className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${
-                        isUser
+                      className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center ${isUser
                           ? "bg-neon-purple/20"
                           : "bg-gradient-to-r from-neon-blue to-neon-purple"
-                      }`}
+                        }`}
                     >
                       {isUser ? (
                         <User className="w-4 h-4 text-neon-purple" />
@@ -229,16 +228,14 @@ export default function ChatbotWidget() {
 
                     {/* Message Content */}
                     <div
-                      className={`flex-1 max-w-[85%] ${
-                        isUser ? "text-right" : ""
-                      }`}
+                      className={`flex-1 max-w-[85%] ${isUser ? "text-right" : ""
+                        }`}
                     >
                       <div
-                        className={`inline-block p-3 rounded-2xl ${
-                          isUser
+                        className={`inline-block p-3 rounded-2xl ${isUser
                             ? "bg-neon-blue text-black rounded-br-md"
                             : "bg-white/10 text-gray-100 rounded-bl-md"
-                        }`}
+                          }`}
                       >
                         <p className="text-sm whitespace-pre-wrap">
                           {/* Handle new SDK format: both user and assistant use parts array */}
