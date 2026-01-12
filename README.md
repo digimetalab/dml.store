@@ -1,120 +1,130 @@
-# DML Store 🚀
+<p align="center">
+  <img src="public/hero-bg.png" alt="DML Store Banner" width="100%" />
+</p>
 
-<div align="center">
+<h1 align="center">DML Store 🚀</h1>
 
-**AI-Powered Online Store Platform**
+<p align="center">
+  <strong>AI-Powered Online Store Platform</strong>
+</p>
 
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)](https://www.typescriptlang.org/)
-[![TailwindCSS](https://img.shields.io/badge/Tailwind-4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+<p align="center">
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white" alt="Next.js" /></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React" /></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white" alt="TypeScript" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind-4-38B2AC?logo=tailwind-css&logoColor=white" alt="TailwindCSS" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
+</p>
 
-*Build, manage, and grow your digital business with intelligent AI automation.*
+<p align="center">
+  <em>Build, manage, and grow your digital business with intelligent AI automation.</em>
+</p>
 
-[Getting Started](#-getting-started) •
-[Features](#-key-features) •
-[Tech Stack](#-tech-stack) •
-[Documentation](#-documentation)
-
-</div>
+<p align="center">
+  <a href="#-quick-start">Quick Start</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-project-structure">Structure</a> •
+  <a href="#-contributing">Contributing</a>
+</p>
 
 ***
 
-## ✨ Key Features
+## 📖 Overview
+
+**DML Store** is a modern, AI-powered e-commerce platform built with the latest web technologies. It features an intelligent chatbot assistant that helps customers find products, make recommendations, and complete orders through WhatsApp integration.
+
+### Why DML Store?
+
+* 🤖 **AI-First Approach** - Built-in AI assistant powered by OpenRouter (supports GPT-4, Claude, DeepSeek, etc.)
+* ⚡ **Modern Stack** - Next.js 16, React 19, TypeScript 5, and Tailwind CSS 4
+* 🎨 **Beautiful UI** - Dark-themed design with neon accents and smooth animations
+* 📱 **Fully Responsive** - Works perfectly on desktop, tablet, and mobile
+* 🔒 **Type-Safe** - End-to-end type safety with TypeScript and Drizzle ORM
+
+***
+
+## ✨ Features
 
 ### 🧠 AI-Powered Commerce
 
 | Feature | Description |
 |---------|-------------|
-| **AI Product Assistant** | Intelligent chatbot for product recommendations |
-| **Smart Search** | AI-powered product search and discovery |
-| **Dynamic Pricing** | Budget-based build recommendations |
-| **WhatsApp Integration** | Seamless order through WhatsApp |
+| **AI Product Assistant** | Intelligent chatbot for product recommendations and customer support |
+| **Smart Product Search** | AI-powered search with natural language understanding |
+| **Budget Recommendations** | Automated build suggestions based on customer budget |
+| **WhatsApp Integration** | One-click order through WhatsApp with pre-filled messages |
 
-### 🛍️ E-Commerce Core
+### 🛍️ E-Commerce Essentials
 
-* Complete product catalog with categories
-* Real-time inventory management
-* Beautiful, responsive landing page
-* Modern dark-themed UI with neon accents
+* **Product Catalog** - Complete product management with categories, pricing, and badges
+* **Category Navigation** - GPU, CPU, RAM, Storage, Motherboard, PSU, Case, Monitor, Peripherals
+* **Deal Highlights** - Featured products, sales, and hot deals section
+* **Inventory Tracking** - Real-time stock availability
 
-### ⚡ Developer Experience
+### 🎨 User Interface
 
-* Type-safe database with Drizzle ORM
-* Server-side rendering with Next.js App Router
-* Fully typed with TypeScript
-* Hot reload development server
+* **Hero Section** - Stunning landing page with animated elements
+* **Product Cards** - Beautiful product displays with hover effects
+* **Trust Signals** - Customer testimonials and trust indicators
+* **Responsive Design** - Mobile-first approach with desktop enhancements
 
 ***
 
 ## 🧩 Tech Stack
 
-| Category | Technology |
-|----------|------------|
-| **Framework** | [Next.js 16](https://nextjs.org/) (App Router) |
-| **UI** | [React 19](https://react.dev/) |
-| **Styling** | [Tailwind CSS v4](https://tailwindcss.com/) |
-| **Animation** | [Framer Motion](https://www.framer.com/motion/) |
-| **Database** | PostgreSQL with [Drizzle ORM](https://orm.drizzle.team/) |
-| **AI SDK** | [Vercel AI SDK](https://sdk.vercel.ai/) |
-| **LLM Provider** | [OpenRouter](https://openrouter.ai/) (DeepSeek, GPT-4, Claude, etc.) |
-| **Validation** | [Zod](https://zod.dev/) |
-| **Icons** | [Lucide Icons](https://lucide.dev/) |
+| Category | Technology | Version |
+|----------|------------|---------|
+| **Framework** | [Next.js](https://nextjs.org/) (App Router) | 16.1.1 |
+| **UI Library** | [React](https://react.dev/) | 19.2.3 |
+| **Language** | [TypeScript](https://www.typescriptlang.org/) | 5.x |
+| **Styling** | [Tailwind CSS](https://tailwindcss.com/) | 4.x |
+| **Animation** | [Framer Motion](https://www.framer.com/motion/) | 12.x |
+| **Database** | PostgreSQL + [Drizzle ORM](https://orm.drizzle.team/) | 0.45.x |
+| **AI SDK** | [Vercel AI SDK](https://sdk.vercel.ai/) | 5.x |
+| **LLM Provider** | [OpenRouter](https://openrouter.ai/) | - |
+| **Validation** | [Zod](https://zod.dev/) | 4.x |
+| **Icons** | [Lucide React](https://lucide.dev/) | 0.562.x |
 
 ***
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-* **Node.js 20+** - [Download](https://nodejs.org/)
-* **PostgreSQL** - Local or cloud instance (Supabase, Neon, etc.)
-* **OpenRouter API Key** - Get at [openrouter.ai](https://openrouter.ai/)
+Before you begin, ensure you have:
+
+* **Node.js 20+** - [Download here](https://nodejs.org/)
+* **PostgreSQL** - Local installation or cloud service (Supabase, Neon, Railway)
+* **OpenRouter API Key** - [Get your key](https://openrouter.ai/)
 
 ### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/digimetalab/dml.store.git
-   cd dml.store
-   ```
+```bash
+# 1. Clone the repository
+git clone https://github.com/digimetalab/dml.store.git
+cd dml.store
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+# 2. Install dependencies
+npm install
 
-3. **Configure environment**
+# 3. Configure environment
+cp .env.example .env
 
-   Copy the example environment file:
+# 4. Update .env with your credentials
+# DATABASE_URL=postgresql://user:password@localhost:5432/dml_store
+# OPENROUTER_API_KEY=sk-or-v1-your-api-key
+# WHATSAPP_NUMBER=628123456789
 
-   ```bash
-   cp .env.example .env
-   ```
+# 5. Initialize database
+npm run db:push
+npm run db:seed
 
-   Update `.env` with your credentials:
+# 6. Start development server
+npm run dev
+```
 
-   ```env
-   DATABASE_URL=postgresql://user:password@localhost:5432/dml_store
-   OPENROUTER_API_KEY=sk-or-v1-your-api-key
-   WHATSAPP_NUMBER=628123456789
-   ```
-
-4. **Initialize database**
-   ```bash
-   npm run db:push
-   npm run db:seed
-   ```
-
-5. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-6. **Open the app**
-
-   Navigate to <http://localhost:3000>
+Open <http://localhost:3000> to see your store!
 
 ***
 
@@ -123,24 +133,42 @@
 ```
 dml.store/
 ├── src/
-│   ├── app/                 # Next.js App Router
-│   │   ├── api/chat/        # AI Chat API endpoint
-│   │   ├── layout.tsx       # Root layout
-│   │   └── page.tsx         # Landing page
-│   ├── components/          # React components
-│   │   ├── ChatbotWidget.tsx
-│   │   ├── Header.tsx
+│   ├── app/                    # Next.js App Router
+│   │   ├── api/
+│   │   │   └── chat/           # AI Chat API endpoint
+│   │   │       └── route.ts    # Chat handler with AI tools
+│   │   ├── globals.css         # Global styles
+│   │   ├── layout.tsx          # Root layout
+│   │   └── page.tsx            # Landing page
+│   │
+│   ├── components/             # React Components
+│   │   ├── chat/
+│   │   │   └── ProductCard.tsx # Product card for chat
+│   │   ├── CategoryHighlights.tsx
+│   │   ├── ChatbotWidget.tsx   # AI Chatbot widget
+│   │   ├── FeaturedProducts.tsx
 │   │   ├── Footer.tsx
+│   │   ├── Header.tsx
 │   │   ├── Hero.tsx
-│   │   └── ...
-│   ├── db/                  # Database layer
-│   │   ├── schema.ts        # Drizzle schema
-│   │   ├── seed.ts          # Initial data
-│   │   └── index.ts         # DB connection
-│   └── lib/                 # Utilities
-├── public/                  # Static assets
-├── drizzle.config.ts        # Drizzle configuration
-└── package.json
+│   │   ├── PCBuilderCTA.tsx
+│   │   ├── Testimonials.tsx
+│   │   └── TrustSignals.tsx
+│   │
+│   ├── db/                     # Database Layer
+│   │   ├── index.ts            # Database connection
+│   │   ├── schema.ts           # Drizzle schema (products, categories)
+│   │   └── seed.ts             # Sample data seeder
+│   │
+│   └── lib/
+│       └── utils.ts            # Utility functions (cn, etc.)
+│
+├── public/                     # Static assets
+├── .env.example                # Environment template
+├── drizzle.config.ts           # Drizzle configuration
+├── next.config.ts              # Next.js configuration
+├── package.json
+├── tailwind.config.ts          # Tailwind configuration
+└── tsconfig.json               # TypeScript configuration
 ```
 
 ***
@@ -149,62 +177,125 @@ dml.store/
 
 | Command | Description |
 |---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
+| `npm run dev` | Start development server with hot reload |
+| `npm run build` | Create production build |
 | `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
-| `npm run db:push` | Push schema to database |
-| `npm run db:seed` | Seed database with sample data |
-| `npm run db:studio` | Open Drizzle Studio |
+| `npm run lint` | Run ESLint for code quality |
+| `npm run db:push` | Push Drizzle schema to database |
+| `npm run db:seed` | Seed database with sample products |
+| `npm run db:studio` | Open Drizzle Studio for database management |
 
 ***
 
-## 🔧 Environment Variables
+## 🔧 Configuration
+
+### Environment Variables
+
+Create a `.env` file based on `.env.example`:
 
 | Variable | Required | Description |
-|----------|----------|-------------|
+|----------|:--------:|-------------|
 | `DATABASE_URL` | ✅ | PostgreSQL connection string |
-| `OPENROUTER_API_KEY` | ✅ | OpenRouter API key for AI features |
-| `WHATSAPP_NUMBER` | ⚪ | WhatsApp number for orders (optional) |
+| `OPENROUTER_API_KEY` | ✅ | API key from [OpenRouter](https://openrouter.ai/) |
+| `WHATSAPP_NUMBER` | ⚪ | WhatsApp number for orders (without `+`) |
+
+### Database Schema
+
+The application uses two main tables:
+
+**Products**
+
+* `id` - Primary key
+* `name` - Product name
+* `category` - Product category (GPU, CPU, RAM, etc.)
+* `description` - Product description
+* `price` - Price in IDR
+* `originalPrice` - Original price (for discounts)
+* `imageUrl` - Product image URL
+* `badge` - Product badge (SALE, HOT, NEW, BUNDLE)
+* `specs` - JSON specifications
+* `inStock` - Stock availability
+* `createdAt` - Creation timestamp
+
+**Categories**
+
+* `id` - Primary key
+* `name` - Category name
+* `slug` - URL-friendly slug
+* `description` - Category description
+* `iconUrl` - Category icon URL
 
 ***
 
 ## 🗺️ Roadmap
 
-* \[x] Landing page with modern UI
+### Completed ✅
+
+* \[x] Modern landing page with dark theme
 * \[x] AI-powered chatbot assistant
 * \[x] Product catalog with categories
 * \[x] WhatsApp order integration
-* \[ ] User authentication
-* \[ ] Shopping cart & checkout
+* \[x] Responsive design
+* \[x] Database seeding with sample data
+
+### In Progress 🚧
+
+* \[ ] User authentication (NextAuth.js)
+* \[ ] Shopping cart functionality
 * \[ ] Admin dashboard
-* \[ ] Multi-language support
-* \[ ] Payment gateway integration
+
+### Planned 📋
+
+* \[ ] Checkout & payment gateway
+* \[ ] Order management system
+* \[ ] Multi-language support (i18n)
+* \[ ] Email notifications
+* \[ ] Analytics dashboard
+* \[ ] Product reviews & ratings
 
 ***
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+We welcome contributions! Here's how you can help:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+1. **Fork** the repository
+2. **Create** your feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. **Open** a Pull Request
+
+### Development Guidelines
+
+* Follow the existing code style and conventions
+* Write meaningful commit messages
+* Add tests for new features when applicable
+* Update documentation as needed
 
 ***
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ***
 
-<div align="center">
+## 🙏 Acknowledgments
 
-**DML Store** is proudly built by **[Digimetalab](https://digimetalab.my.id)**
+* [Vercel](https://vercel.com) for the amazing Next.js framework
+* [OpenRouter](https://openrouter.ai) for AI model access
+* [Drizzle Team](https://orm.drizzle.team) for the excellent ORM
+* [Lucide](https://lucide.dev) for beautiful icons
 
-*AI Automation Agency | Bali, Indonesia*
+***
 
-</div>
+<p align="center">
+  <strong>DML Store</strong> is proudly built by <a href="https://digimetalab.my.id"><strong>Digimetalab</strong></a>
+  <br />
+  <em>AI Automation Agency • Bali, Indonesia</em>
+</p>
+
+<p align="center">
+  <a href="https://digimetalab.my.id">Website</a> •
+  <a href="https://github.com/digimetalab">GitHub</a>
+</p>
